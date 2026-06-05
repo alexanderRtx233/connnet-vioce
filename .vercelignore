@@ -1,0 +1,11 @@
+# Files Vercel doesn't need (keeps deploy fast + prevents secret leaks)
+node_modules
+dist
+.tanstack
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+.vercel
+.DS_Store
+*.log
