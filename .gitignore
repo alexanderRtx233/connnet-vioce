@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# TypeScript build info (regenerated on build)
+*.tsbuildinfo
+.tsbuildinfo
+
+# TanStack Router generated files
+.tanstack
+
 # Local env files (NEVER commit real secrets)
 .env
 .env.local
